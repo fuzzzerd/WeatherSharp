@@ -2,7 +2,8 @@
 
 namespace WeatherSharp
 {
-    public class Class1
+    public class Forecast
     {
+        
     }
 }
