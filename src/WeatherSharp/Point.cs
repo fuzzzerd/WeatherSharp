@@ -10,9 +10,17 @@ namespace WeatherSharp
 
         [JsonPropertyName("@type")]
         public string @Type { get; set; }
-        public string cwa { get; set; }
+
+        [JsonPropertyName("cwa")]
+        public string Cwa { get; set; }
+
+        [JsonPropertyName("forecastOffice")]
         public string ForecastOffice { get; set; }
+
+        [JsonPropertyName("gridX")]
         public int GridX { get; set; }
+
+        [JsonPropertyName("gridY")]
         public int GridY { get; set; }
     }
 }
